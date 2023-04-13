@@ -7,7 +7,7 @@ class DatabaseConnection {
     private $pdo;
 
     private function __construct() {
-        $host = '172.18.0.3';
+        $host = '172.19.0.4';  //this ip can be change in docker image... 
         $port = '5432';
         $dbname = 'WorkanaTest';
         $user = 'admin';

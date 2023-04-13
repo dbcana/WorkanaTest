@@ -1,7 +1,7 @@
 <?php
 namespace WorkanaTest;
 interface Model{
-    public function all();
+    public function getAll();
     public function getById($id);
     public function save();
 }
